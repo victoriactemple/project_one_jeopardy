@@ -7,7 +7,7 @@ $(() => {
   //      Category 1 Art 
      
   {   answer: 'Renaissance artist who scupted the the Statue of David.',
-      questions: ['Who is Michaelangelo', 'Who is Francavilla', 'Who is Mangiacavalli', 'Who is Poggini'],
+      questions: ['Who is Michaelangelo?', 'Who is Francavilla?', 'Who is Mangiacavalli?', 'Who is Poggini?'],
       correctAnswer: 'Who is Michaelangelo',
       cashValue: 100,
   },
@@ -15,28 +15,28 @@ $(() => {
   {
       answer: "The alleged portrait of a one Lisa Gherardini",
       questions: ['What is the Mona Lisa?', "Girl with a Pearl Earring?", "What is The Bath?", "What is Water Nymph?" ],
-      correctAnswer: 'what is the mona lisa',
+      correctAnswer: 'What is the Mona Lisa?',
       cashValue: 200,
   },
   
   {
       answer: "The Town depicted in Vicent van Gogh's The Starry Night",
       questions: ["What is Paris?", "What is Nice?", "What is Ize?", "What is Saint-Rémy-de-Provence?"],
-      correctAnswer: 'what is saint-remy-de-provence?',
+      correctAnswer: 'What is Saint-Rémy-de-Provence?',
       cashValue: 300,
   },
   
   {
       answer: "Artist of 'American Gothic.'",
-      questions: ["Norman Rockwell", "Grant Wood", "Edward Hopper", "Andrew Wyeth"],
-      correctAnswer: 'grant wood',
+      questions: ["Who is Norman Rockwell", "Who is Grant Wood", "Who is Edward Hopper", "Who is Andrew Wyeth"],
+      correctAnswer: 'Who is Grant Wood',
       cashValue: 400,
   },
   
   {
       answer: "Credited as the designer of the many statues which decorated the Parthenon.",
       questions: ["Who is Hediod?", "Who is Praxiteles?", "Who is Scopas", "Who is Phidias"],
-      correctAnswer: 'who is phidias',
+      correctAnswer: 'Who is Phidias?',
       cashValue: 500,
   },
      
@@ -46,7 +46,8 @@ $(() => {
   answer: "This food is the leading source of salmonella poisoning.",
   questions: ['What is chicken?', 'What is salmon?', 'What is tuna?', 'What are eggs?'],
   correctAnswer: 'what is chicken',
-         cashValue: 100,
+cashValue: 100,
+
      },
      
   {
@@ -185,6 +186,20 @@ $(() => {
          questions: ["What is the German Beer Purity Law?", "What are Beer Making Standards of 1705", "What is the Pisner Act 1600", "What is Der Beer Act"],
          correctAnswer: "what is the german beer purity law",
          cashValue: 500,
-     }]
+     }];
+
+
+//empty div created to hide at start and show when a well is clicked.     
+
+$('.emptyDiv').hide();
+
+
+
+
+
+
+
+
 
 });
+
