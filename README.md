@@ -6,6 +6,6 @@ Challenge:
 3. The questions are phrased as answers and the user chooses from a list of 4 questions that match the answer. 
 
 
-<a href = "https://trello.com/b/m0vymj5H/wdi-12-project-1"> Trello Board
+<a href="https://trello.com/b/m0vymj5H/wdi-12-project-1">Trello Board</a>
   
-<img src= "/wdi/projects/project_one_jeopardy/VCT_Jeopardy_Wireframe.jpeg" alt="Jeopardy Wireframe"> 
+<img src= "ga/wdi/projects/project_one_jeopardy/wireframe.jpg" alt="Jeopardy Wireframe"> 
