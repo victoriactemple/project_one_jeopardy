@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #FFEFA6;
+    background-color: lightblue;
 }
 
 #displayRules{
@@ -23,10 +23,12 @@ body{
 }
 
 .choices{
+    font-family: "Avenir Book", sans-serif;
     cursor: pointer;
     text-align: center;
 }
 
 .prompt{
+    font-family: "Avenir Book", sans-serif;
     text-align: center;
 }
