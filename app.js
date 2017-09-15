@@ -1,5 +1,11 @@
 $(() => {
 
+//Alert is placehlder for now, I would like to try a popup later. 
+$('#displayRules').on('click', ($event) => {
+alert("-Pick a category and a point value.\n-Click on the chosen box for the answer.\n-Choose which of the four questions best coorelate with the given answer.\n-Click OK once you are satisfied with your selection.\n-If you are correct, you will be rewarded with the points for that answer and your turn continues.\n-If you are incorrect, the turn passes to the next player."
+);
+});
+
      // GLOBAL VARIABLE FOR SCORE 
         let score = 0;    
      
@@ -80,7 +86,7 @@ cashValue: 100,
         
          
      
-                 // Category 3 Wine
+   // Category 3 Wine
   { 
     answer: "Chianti is a winemaking region in the rolling hills of this country", 
    questions: ["What is Italy?", "What is France", "What is Spain", "What is Hungary"],
@@ -151,7 +157,7 @@ cashValue: 100,
       
      
      
-      //  Category 5 Beer
+ //  Category 5 Beer
      
      {
   answer: "This category of tart brews includes lambic, guess, and goses.",
@@ -196,18 +202,20 @@ $('.emptyDiv').hide();
 //What will the empty div display? 
 //Div will need the answer and display the array of four questions. 
 
+//passing in the data-number (now called index)
 function buildDisplay(index) {
 // set variable for what will be displayed. 
 // open p tag of h1-6 tag grabbing the value from the property answer specific to the well with the data-number we are on. 
 let answerAndQuestionDisplay = `
-<h2>${object[index].answer}</h2>
+<h1>${object[index].answer}</h1>
 `
 //This is the akin to finding the looping thru writing for(i = 0; i <object.length; i++){.attr() and const arrayofAnswers = object[i].answer; and then .html or .text}
+
 
 object[index].questions.forEach(function(question){
     console.log(question);
     answerAndQuestionDisplay += "<div class = 'question' data-index='" + index + "'" +"data-value'" +question+ "'>" + question + "</div";
-    
+// adding the Answer being asked of the user and     
 });
 
 return answerAndQuestionDisplay;
@@ -224,13 +232,29 @@ $('.well').on('click', function (){
     const index = $(this).data("number");    
     //when I click a well, I want the empty div to show. 
     $('.emptyDiv').show().html(buildDisplay(index));
-    //alltogether now. onclick, show user html or text held in answerAndQuestionDisplay variable
+    //alltogether now. onclick, show user html or text held in answerAndQuestionDisplay variable. We're invoking the function.
     $(this).remove();
+
+
+// When the user selects an answer Listener Event
+
+$('.question').on('click', function() {
+    console.log(this);
+ //when user clicks the question, we want to look at the two data values (question)..the paramenter of the function above...the data index (correctAnswer). 
+ const question = $(this).data("value")
+ //this question as it appears on the screen
+ const correctAns = (object[index].correctAnswer)
+//the index of the correctAnswer in my object
+if (question === correctAns){
+    alert("That's correct!");
+}
+else {
+    alert("Sorry, not the answer we're looking for.");
+}
+
+})
+
 });
-
-
-
-
 
 
 
