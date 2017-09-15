@@ -2,8 +2,12 @@
     display: center:
 }
 
+
+
 .jeopardy-logo{
-    text-align: right;
+    font-size: 60px;
+    font-family: "Marker Felt Tip";
+    text-align: center;
 }
 
 .well { 
@@ -13,4 +17,9 @@
 
 .choices{
     cursor: pointer;
+    text-align: center;
+}
+
+.prompt{
+    text-align: center;
 }

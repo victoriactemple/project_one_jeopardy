@@ -207,7 +207,7 @@ function buildDisplay(index) {
 // set variable for what will be displayed. 
 // open p tag of h1-6 tag grabbing the value from the property answer specific to the well with the data-number we are on. 
 let answerAndQuestionDisplay = `
-<h1>${object[index].answer}</h1>
+<h1 class= 'prompt'>${object[index].answer}</h1>
 `
 //This is the akin to finding the looping thru writing for(i = 0; i <object.length; i++){.attr() and const arrayofAnswers = object[i].answer; and then .html or .text}
 //forEach look looping through the questions property.
