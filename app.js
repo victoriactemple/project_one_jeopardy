@@ -206,10 +206,15 @@ let answerAndQuestionDisplay = `
 
 object[index].questions.forEach(function(question){
     console.log(question);
+    answerAndQuestionDisplay += "div class = 'question' data-index='" + index + "'" +"data-value'" +question+ "'>" + question + "</div";
     
-})
+});
+
+return answerAndQuestionDisplay;
 
 }
+
+//function boardReset(){}
 
 
 //create a click event. all of my divs have the class of .well (from Bootstrap)
