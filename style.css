@@ -8,4 +8,9 @@
 
 .well { 
     text-align: center;
+    cursor: pointer;
+}
+
+.choices{
+    cursor: pointer;
 }

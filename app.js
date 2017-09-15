@@ -2,7 +2,7 @@ $(() => {
 
 //Alert is placehlder for now, I would like to try a popup later. 
 $('#displayRules').on('click', ($event) => {
-alert("-Pick a category and a point value.\n-Click on the chosen box for the answer.\n-Choose which of the four questions best coorelate with the given answer.\n-Click OK once you are satisfied with your selection.\n-If you are correct, you will be rewarded with the points for that answer and your turn continues.\n-If you are incorrect, the turn passes to the next player."
+alert("-Pick a category and a point value.\n-Click on the chosen box for the answer.\n-Choose which of the four questions best coorelate with the given answer.\n-Click that question when you are ready to submit.\n-If you are correct, you will be rewarded with the points for that answer and your turn continues.\n-If you are incorrect, you will have points deducted from your score."
 );
 });
 
@@ -210,14 +210,24 @@ let answerAndQuestionDisplay = `
 <h1>${object[index].answer}</h1>
 `
 //This is the akin to finding the looping thru writing for(i = 0; i <object.length; i++){.attr() and const arrayofAnswers = object[i].answer; and then .html or .text}
-
 //forEach look looping through the questions property.
 object[index].questions.forEach(function(question){
     // console.log(question);
+//1. make a new div for the questions
+//2. Add class .choices
+//3. Data index cooresponding to the well's data number. 
+//4. Data value is the "question" that cooresponds to what the 
 
- answerAndQuestionDisplay += "<div class='question' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
- // adding the Answer being asked of the user     
-    
+
+// const newDiv = $('<div></div')
+// .addClass('.choices')
+// .attr("index")
+// .attr("value");
+// answerAndQuestionDisplay += (newDiv + index + "'" + "data-value" +question+ "'>")  +question+ "</div>";
+
+ answerAndQuestionDisplay += "<div class='choices' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
+
+   
     
 });
 
@@ -244,7 +254,7 @@ $('.well').on('click', function (){
 
 // When the user selects an answer Listener Event
 
-$('.question').on('click', function() {
+$('.choices').on('click', function() {
     // console.log(this);
  //when user clicks the question, we want to look at the two data values (question)..the paramenter of the function above...the data index (correctAnswer). 
  const question = $(this).data("value")
