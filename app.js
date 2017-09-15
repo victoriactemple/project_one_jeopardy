@@ -14,7 +14,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
   {   answer: 'Renaissance artist who scupted the the Statue of David.',
       questions: ['Who is Michaelangelo?', 'Who is Francavilla?', 'Who is Mangiacavalli?', 'Who is Poggini?'],
-      correctAnswer: 'Who is Michaelangelo',
+      correctAnswer: 'Who is Michaelangelo?',
       cashValue: 100,
   },
   
@@ -213,16 +213,21 @@ let answerAndQuestionDisplay = `
 
 
 object[index].questions.forEach(function(question){
-    console.log(question);
-    answerAndQuestionDisplay += "<div class = 'question' data-index='" + index + "'" +"data-value'" +question+ "'>" + question + "</div";
-// adding the Answer being asked of the user and     
+    // console.log(question);
+
+    answerAndQuestionDisplay += "<div class='question' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
+    
+    // adding the Answer being asked of the user and     
 });
 
 return answerAndQuestionDisplay;
 
 }
 
-//function boardReset(){}
+//function to hide div...boardReset(){} $('.emptyDiv').hide();
+function boardReset(){
+    $('.emptyDiv').hide();
+};
 
 
 //create a click event. all of my divs have the class of .well (from Bootstrap)
@@ -239,22 +244,25 @@ $('.well').on('click', function (){
 // When the user selects an answer Listener Event
 
 $('.question').on('click', function() {
-    console.log(this);
+    // console.log(this);
  //when user clicks the question, we want to look at the two data values (question)..the paramenter of the function above...the data index (correctAnswer). 
  const question = $(this).data("value")
  //this question as it appears on the screen
  const correctAns = (object[index].correctAnswer)
 //the index of the correctAnswer in my object
 if (question === correctAns){
-    alert("That's correct!");
+    alert("That's correct!")
 }
 else {
     alert("Sorry, not the answer we're looking for.");
-}
+};
+
+boardReset();
 
 })
 
 });
+
 
 
 
