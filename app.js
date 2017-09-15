@@ -267,6 +267,7 @@ else {
     score -= possiblePoints;
     $('.scoreBoard').html(score);
     boardReset();
+
 };
 
 
