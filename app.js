@@ -193,14 +193,25 @@ cashValue: 100,
 
 $('.emptyDiv').hide();
 
+//What will the empty div display? 
+//Div will need the answer and display the array of four questions. 
+
+
+function buildQuestion() {
+
+}
+
 
 //create a click event. all of my divs have the class of .well (from Bootstrap)
 
 $('.well').on('click', function (){ 
+    //created variable index to know the well's data number we've assigned it previously in the HTML.
+    const index = $(this).data("number");    
+    console.log(this);
     //when I click a well, I want the empty div to show. 
-    $('.emptyDiv').show()
+    // $('.emptyDiv').show()
 
-
+});
 
 
 
@@ -209,4 +220,3 @@ $('.well').on('click', function (){
 
 
 });
-
