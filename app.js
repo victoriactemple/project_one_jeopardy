@@ -241,7 +241,8 @@ $('.well').on('click', function (){
     $(this).remove();
 
 
-// When the user selects their "answer" Listener Event
+// When the user selects an answer Listener Event
+
 $('.question').on('click', function() {
     // console.log(this);
  //when user clicks the question, we want to look at the two data values (question)..the paramenter of the function above...the data index (correctAnswer). 
@@ -250,19 +251,22 @@ $('.question').on('click', function() {
  const correctAns = (object[index].correctAnswer)
 //the index of the correctAnswer in my object
 const possiblePoints = (object[index].cashValue) 
+const newScore = 0;
 if (question === correctAns){
-    alert("That's correct!")
-   let score = $('.scoreBoard') += possiblePoints;
-
+    alert("That's correct!");   
+    newScore += $('.scoreBoard').html(possiblePoints);
+    boardReset();
 }
 else {
     alert("Sorry, not the answer we're looking for.");
-
+    // awardPoints = newScore -= (object[index].cashValue) 
+    newScore = $('.scoreBoard').html(possiblePoints);
+    boardReset();
 };
 
-boardReset();
 
 })
+
 
 });
 
