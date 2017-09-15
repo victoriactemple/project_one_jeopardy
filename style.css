@@ -2,17 +2,24 @@
     display: center:
 }
 
+body{
+    background-color: #FFEFA6;
+}
 
+#displayRules{
+    text-align: center;
+}
 
 .jeopardy-logo{
-    font-size: 60px;
-    font-family: "Marker Felt Tip";
+    font-size: 80px;
+    font-family: "gyparody", sans-serif;
     text-align: center;
 }
 
 .well { 
     text-align: center;
     cursor: pointer;
+    background-color: lightgoldenrodyellow;
 }
 
 .choices{

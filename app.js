@@ -52,12 +52,12 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
   answer: "This food is the leading source of salmonella poisoning.",
   questions: ['What is chicken?', 'What is salmon?', 'What is tuna?', 'What are eggs?'],
   correctAnswer: 'What is chicken?',
-cashValue: 100,
+  cashValue: 100,
 
      },
      
   {
-    answer: "This added ingredient keeps confectioners' sugar.", 
+    answer: "This added ingredient keeps confectioners' sugar from clumping.", 
     questions: ['What is arrowroot?', "What is corn starch?", "What is potato starch?", 'What is baking powder?'],
     correctAnswer: 'What is corn starch?',
     cashValue: 200,
@@ -225,7 +225,9 @@ object[index].questions.forEach(function(question){
 // .attr("value");
 // answerAndQuestionDisplay += (newDiv + index + "'" + "data-value" +question+ "'>")  +question+ "</div>";
 
- answerAndQuestionDisplay += "<div class='choices' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
+//  answerAndQuestionDisplay += "<div class='choices' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
+
+answerAndQuestionDisplay += "<div class='choices' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
 
    
     
