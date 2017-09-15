@@ -1,9 +1,9 @@
 .emptyDiv {
-    display: center:
+    display: center;
 }
 
 body{
-    background-color: lightblue;
+    background-color: #F89B4F;
 }
 
 #displayRules{
@@ -14,6 +14,10 @@ body{
     font-size: 80px;
     font-family: "gyparody", sans-serif;
     text-align: center;
+}
+
+.panel-footer {
+    background-color: #E27611
 }
 
 .well { 
