@@ -34,8 +34,8 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
   
   {
       answer: "Artist of 'American Gothic.'",
-      questions: ["Who is Norman Rockwell", "Who is Grant Wood", "Who is Edward Hopper", "Who is Andrew Wyeth"],
-      correctAnswer: 'Who is Grant Wood',
+      questions: ["Who is Norman Rockwell?", "Who is Grant Wood?", "Who is Edward Hopper?", "Who is Andrew Wyeth?"],
+      correctAnswer: 'Who is Grant Wood?',
       cashValue: 400,
   },
   
@@ -51,7 +51,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
   {
   answer: "This food is the leading source of salmonella poisoning.",
   questions: ['What is chicken?', 'What is salmon?', 'What is tuna?', 'What are eggs?'],
-  correctAnswer: 'what is chicken',
+  correctAnswer: 'What is chicken?',
 cashValue: 100,
 
      },
@@ -59,28 +59,28 @@ cashValue: 100,
   {
     answer: "This added ingredient keeps confectioners' sugar.", 
     questions: ['What is arrowroot?', "What is corn starch?", "What is potato starch?", 'What is baking powder?'],
-    correctAnswer: 'what is corn starch',
+    correctAnswer: 'What is corn starch?',
     cashValue: 200,
      },
      
   {
      answer: 'This staple is laced with up to 16 additives including plaster of paris, to stay fresh.',
      questions: ['What is peanut butter?', 'What is taffy?', 'What is bread?', 'What is margarine?'],
-     correctAnswer: 'what is bread',
+     correctAnswer: 'What is bread?',
      cashValue: 300,
      },
      
      {
      answer: 'This type of green was called Cripshead until the 1920s.',
      questions: ['What is bibb lettuce?', 'What is red leaf lettuce?', 'What is spinach?', 'What is Iceberg?'],
-     correctAnswer: 'what is iceberg',
+     correctAnswer: 'What is Iceberg?',
      cashValue: 400,
      },
      
      {
          answer: 'Though commonly unknown, this fruit is technically a berry.',
          questions: ['What is strawberry?', 'What is eggplant?', "What is lemon?", "What is banana?"],
-         correctAnswer: 'what is lemon',
+         correctAnswer: 'What is lemon?',
          cashValue: 500,
      },
         
@@ -90,32 +90,32 @@ cashValue: 100,
   { 
     answer: "Chianti is a winemaking region in the rolling hills of this country", 
    questions: ["What is Italy?", "What is France", "What is Spain", "What is Hungary"],
-   correctAnswer: "what is italy",
+   correctAnswer: "What is Italy?",
    cashValue: 100,
           },
           
  {  answer: "Three major ways this wine is made through: skin contact, saigenee, and blending.",
    questions: ["What is Proseco?", "What is Shiraz?", " What is Malbec?", "What is Rosé?"],
-   correctAnswer: 'What is Rose',
+   correctAnswer: 'What is Rosé?',
    cashValue: 200,
    },  
           
    {
    answer: "The birthplace of Champagne.",
    questions: ["What is Spain?", "What is Great Britain?", "What is Germany?", "What is France?"],
-   correctAnswer: "What is France",
+   correctAnswer: "What is France?",
    cashValue: 300,
           },
    {
    answer: "The age of the oldest bottle of wine on display.",
    questions: ["What is 500 A.D.?", "What is 200 A.D.?", "What is 400 A.D.?", "What is 325 A.D.?"],
-   correctAnswer: 'what is 325 ad',
+   correctAnswer: "What is 500 A.D.?",
    cashValue: 400,
           },
    {
    answer:"The birthplace of wine-making.",
-   questions: ["What is France", "What is Belgium", "What is Egypt", "What is Iran"],
-   correctAnswer: 'what is iran',
+   questions: ["What is France?", "What is Belgium?", "What is Egypt?", "What is Iran?"],
+   correctAnswer: 'What is Iran?',
    cashValue: 500,
           },
          
@@ -124,34 +124,34 @@ cashValue: 100,
  {
    answer: "The name of the shop on which the Pilgrims travelled to North American in 1620.",
    questions: ['What is The Mayflower?', 'What is the Nina?', 'What is the Santa Maria?', 'What is The Titanic?'],
-   correctAnswer: 'what is the mayflower',
+   correctAnswer: 'What is The Mayflower?',
    cashValue: 100,
       },
    {
    answer: "The date of France's Bastille Day.",
    questions: ['What is April 14th?', 'What is July 14th?', 'What is October 14th?', 'What is June 14th?'],
-   correctAnswer: 'what is july 14th',
+   correctAnswer: 'What is July 14th?',
    cashValue: 200,
       },
       
       {
    answer: 'In 1926, 19-year-old Gertrude Ederle became the first woman to swim this.',
    questions: ['What is the Panama Canal?', 'What is the Dead Sea?', 'What is the Rio Grande?', 'What is the English Channel?'],
-   correctAnswer: 'what is the english channel',
+   correctAnswer: 'What is the English Channel?',
    cashValue: 300,
       },
       
       {
    answer: 'The name of the  first man-made satellite launched by the USSR in 1957.',
    questions: ['What is Pluto?', 'What is Apollo?', 'What is Monarch?', 'What is Sputnik?'],
-   correctAnswer: 'what is sputnik',
+   correctAnswer: 'What is Sputnik?',
    cashValue: 400,
       },
       
       {
    answer: 'This English Queen reigned for just nine days.',
    questions: ['Who is Ann Margaret?', 'Who is Lady Jane Grey?', 'Who is Maria Antoinette?', 'Who is Lady Frances Ann'],
-   correctAnswer: 'who is lady jane grey',
+   correctAnswer: 'Who is Lady Jane Grey?',
    cashValue: 500,
       },
       
@@ -161,36 +161,36 @@ cashValue: 100,
      
      {
   answer: "This category of tart brews includes lambic, guess, and goses.",
-         questions: ["What is sour beer?", "What is pisner?", "What is lager", "What is pale ale"],
-         correctAnswer: 'what is sour beer',
+         questions: ["What is sour beer?", "What is pisner?", "What is lager?", "What is pale ale?"],
+         correctAnswer: 'What is sour beer?',
          cashValue: 100,
      },
      
      {
          answer: 'A founding father and brew, who\'s namesake remains one of the biggest American beer brands to date.', 
          questions: ['Who is Hamilton?', 'Who is Sam Adams?', 'Who is Benjamin Franklin?', 'Who is James Adams?' ],
-         correctAnswer: 'who is sam adams',
+         correctAnswer: 'Who is Sam Adams?',
          cashValue: 200,
      },
      
      {
          answer: 'The fictional beer drunk by Homer Simpson, now produced as a real-life product.',
          questions: ['What is Duff?', 'What is Rhino?', 'What is Der Beer?', 'What is Tecate?'],
-         correctAnswer: 'what is duff',
+         correctAnswer: 'What is Duff?',
          cashValue: 300,
      },
      
      {
          answer: 'The century old slogan compliments the fizzy quality of Miller\'s longest continually produced brand, High Life.',
-         questions: ["What is 'The Champagne of Beers?'", "What is 'That frosty mug sensation'", "What is 'Genermany's Fun-Loving Beer?'", "What is It's BEER. Hooray beer!'"],
-         correctAnswer: "what is the champagne of beers",
+         questions: ["What is 'The Champagne of Beers'?", "What is 'That frosty mug sensation'?", "What is 'Genermany's Fun-Loving Beer'?", "What is It's BEER. Hooray beer!'"],
+         correctAnswer: "What is 'The Champagne of Beers'?",
          cashValue: 400,
      },
      
      {
          answer: "Series of regulations limiting the ingredients in beer in Germany. Limiting beer ingredients to: water, hops, and barley.",
-         questions: ["What is the German Beer Purity Law?", "What are Beer Making Standards of 1705", "What is the Pisner Act 1600", "What is Der Beer Act"],
-         correctAnswer: "what is the german beer purity law",
+         questions: ["What is the German Beer Purity Law?", "What are Beer Making Standards of 1705?", "What is the Pisner Act 1600?", "What is Der Beer Act?"],
+         correctAnswer: "What is the German Geer Purity Law?",
          cashValue: 500,
      }];
 
