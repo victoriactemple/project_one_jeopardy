@@ -194,6 +194,13 @@ cashValue: 100,
 $('.emptyDiv').hide();
 
 
+//create a click event. all of my divs have the class of .well (from Bootstrap)
+
+$('.well').on('click', function (){ 
+    //when I click a well, I want the empty div to show. 
+    $('.emptyDiv').show()
+
+
 
 
 
