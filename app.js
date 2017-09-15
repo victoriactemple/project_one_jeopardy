@@ -200,7 +200,7 @@ cashValue: 100,
 $('.emptyDiv').hide();
 
 //What will the empty div display? 
-//Div will need the answer and display the array of four questions. 
+//Div will need to ask the answer and display the array of four questions. 
 
 //passing in the data-number (now called index)
 function buildDisplay(index) {
@@ -211,18 +211,19 @@ let answerAndQuestionDisplay = `
 `
 //This is the akin to finding the looping thru writing for(i = 0; i <object.length; i++){.attr() and const arrayofAnswers = object[i].answer; and then .html or .text}
 
-
+//forEach look looping through the questions property.
 object[index].questions.forEach(function(question){
     // console.log(question);
 
-    answerAndQuestionDisplay += "<div class='question' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
+ answerAndQuestionDisplay += "<div class='question' data-index='" + index + "'" + "data-value='" + question + "'>" + question + "</div>";
+ // adding the Answer being asked of the user     
     
-    // adding the Answer being asked of the user and     
+    
 });
 
 return answerAndQuestionDisplay;
 
-}
+};
 
 //function to hide div...boardReset(){} $('.emptyDiv').hide();
 function boardReset(){
@@ -251,16 +252,20 @@ $('.question').on('click', function() {
  const correctAns = (object[index].correctAnswer)
 //the index of the correctAnswer in my object
 const possiblePoints = (object[index].cashValue) 
-const newScore = 0;
 if (question === correctAns){
     alert("That's correct!");   
-    newScore += $('.scoreBoard').html(possiblePoints);
+    // if the user selects the correct answer, add the cashValue at the index we're in -> possiblePoints to the accruing score. 
+    score += possiblePoints;
+    $('.scoreBoard').html(score);
+    // newScore += $('.scoreBoard').html(possiblePoints);
     boardReset();
 }
 else {
     alert("Sorry, not the answer we're looking for.");
     // awardPoints = newScore -= (object[index].cashValue) 
-    newScore = $('.scoreBoard').html(possiblePoints);
+    // if the user gets the score correct, add the cashValue at the index we're in -> possiblePoints to the accruing score. 
+    score -= possiblePoints;
+    $('.scoreBoard').html(score);
     boardReset();
 };
 
