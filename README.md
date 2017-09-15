@@ -8,4 +8,9 @@ Tasks:
 
 <a href="https://trello.com/b/RaTFGdaR/wdi-12-projectonejeopardy">Trello Board</a>
   
-https://i.imgur.com/UXMzslT.jpg
+<a href="https://imgur.com/UXMzslT"><img src="https://i.imgur.com/UXMzslT.jpg" title="source: imgur.com" /></a>
+
+Work to continue: 
+1. Have two users
+2. Alert that the board has been cleared and declare winner
+3. More dynamic - reveal the answer and multiple choice windows in well styled display
