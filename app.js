@@ -196,17 +196,17 @@ $('.emptyDiv').hide();
 //What will the empty div display? 
 //Div will need the answer and display the array of four questions. 
 
-function buildDisplay() {
+function buildDisplay(index) {
 // set variable for what will be displayed. 
 // open p tag of h1-6 tag grabbing the value from the property answer specific to the well with the data-number we are on. 
 let answerAndQuestionDisplay = `
-<p>${object[index].answer}</p
+<h2>${object[index].answer}</h2>
 `
 //This is the akin to finding the looping thru writing for(i = 0; i <object.length; i++){.attr() and const arrayofAnswers = object[i].answer; and then .html or .text}
 
 object[index].questions.forEach(function(question){
     console.log(question);
-    answerAndQuestionDisplay += "div class = 'question' data-index='" + index + "'" +"data-value'" +question+ "'>" + question + "</div";
+    answerAndQuestionDisplay += "<div class = 'question' data-index='" + index + "'" +"data-value'" +question+ "'>" + question + "</div";
     
 });
 
@@ -223,8 +223,9 @@ $('.well').on('click', function (){
     //created variable index to know the well's data number we've assigned it previously in the HTML.
     const index = $(this).data("number");    
     //when I click a well, I want the empty div to show. 
-    $('.emptyDiv').show()
-
+    $('.emptyDiv').show().html(buildDisplay(index));
+    //alltogether now. onclick, show user html or text held in answerAndQuestionDisplay variable
+    $(this).remove();
 });
 
 
