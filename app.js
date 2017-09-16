@@ -21,14 +21,14 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
     },
   
     {
-    answer: "The alleged portrait of a one Lisa Gherardini",
+    answer: "The alleged portrait of a one Lisa Gherardini.",
     questions: ['What is the Mona Lisa?', "Girl with a Pearl Earring?", "What is The Bath?", "What is Water Nymph?" ],
     correctAnswer: 'What is the Mona Lisa?',
     cashValue: 200,
     },
   
     {
-    answer: "The Town depicted in Vicent van Gogh's The Starry Night",
+    answer: "The Town depicted in Vicent van Gogh's The Starry Night.",
     questions: ["What is Paris?", "What is Nice?", "What is Ize?", "What is Saint-Rémy-de-Provence?"],
     correctAnswer: 'What is Saint-Rémy-de-Provence?',
     cashValue: 300,
@@ -43,7 +43,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
   
     {
     answer: "Credited as the designer of the many statues which decorated the Parthenon.",
-    questions: ["Who is Hediod?", "Who is Praxiteles?", "Who is Scopas", "Who is Phidias"],
+    questions: ["Who is Hediod?", "Who is Praxiteles?", "Who is Scopas?", "Who is Phidias?"],
     correctAnswer: 'Who is Phidias?',
     cashValue: 500,
     },
@@ -89,7 +89,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
    // Category 3 Wine
     { 
-    answer: "Chianti is a winemaking region in the rolling hills of this country", 
+    answer: "Chianti is a winemaking region in the rolling hills of this country.", 
     questions: ["What is Italy?", "What is France?", "What is Spain?", "What is Hungary?"],
     correctAnswer: "What is Italy?",
     cashValue: 100,
@@ -155,7 +155,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
       
     {
     answer: 'This English Queen reigned for just nine days.',
-    questions: ['Who is Ann Margaret?', 'Who is Lady Jane Grey?', 'Who is Maria Antoinette?', 'Who is Lady Frances Ann'],
+    questions: ['Who is Ann Margaret?', 'Who is Lady Jane Grey?', 'Who is Maria Antoinette?', 'Who is Lady Frances Ann?'],
     correctAnswer: 'Who is Lady Jane Grey?',
     cashValue: 500,
     },

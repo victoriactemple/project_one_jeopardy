@@ -1,32 +1,41 @@
 .emptyDiv {
+    background-color: rgba(255, 235, 216, .25);
     display: center;
 }
 
 .well { 
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     cursor: pointer;
     background-color: #EBEB73;
+
 }
 
 body{
-    background-color: #FDC498;
+    background-color: #FAC8A5;
+ 
 }
 
 #displayRules{
-    text-align: center;
+    align: center;
 }
 
+
 .jeopardy-logo{
-    font-size: 80px;
-    font-family: "", sans-serif;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
 .panel-footer {
-    background-color: rgba(248, 152, 68, 0.34)
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    background-color: rgba(255, 235, 216, .25);
 }
 
-.panel-heading{
+.panel{
+    font-family: "Raleway", sans-serif;
     background-color: blue;
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,19 @@
     <title>JEOPARDY!</title>
 
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <!--Raleway Font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--Englebert Font -->
+    <link href="https://fonts.googleapis.com/css?family=Englebert" rel="stylesheet">
+    <!-- Asul Font -->
+    <link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
+    <!-- Arya -->
+    <link href="https://fonts.googleapis.com/css?family=Arya|Asul|Buda:300" rel="stylesheet">
+    <!-- Poppins -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway" rel="stylesheet">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
@@ -22,103 +31,113 @@
 
 <body>
     <h1 class="jeopardy-logo"><strong>Jeopardy!</strong></h1>
-        <button id="displayRules" class="btn btn-secondary">Rules</button>
+    <button id="displayRules" class="btn btn-default">Rules</button>
 
-  <div class="containter">
-       <div class="panel panel-default">
-            <div class="panel-heading">
-                    
-                <div class="text-center col-md-2 col-md-offset-1"> <h4>Art</h4> </div>
-                <div class="text-center col-md-2"> <h4>Food</h4> </div>
-                <div class="text-center col-md-2"><h4>Wine</h4> </div>
-                <div class="text-center col-md-2"><h4>History</h4></div>
-                <div class="text-center col-md-2"><h4>Beer</h4></div>
-                <div class="clearfix"</div>      
-            </div>
+<div class="containter">
+    <div class="panel panel-default">
+        <div class="panel-heading">
 
-        </div>    
+        <div class="text-center col-md-2 col-md-offset-1">
+            <h4><strong>Art</strong></h4>
+        </div>
+        <div class="text-center col-md-2">
+            <h4><strong>Food</strong></h4>
+        </div>
+        <div class="text-center col-md-2">
+            <h4><strong>Wine</strong></h4>
+        </div>
+        <div class="text-center col-md-2">
+            <h4><strong>History</strong></h4>
+        </div>
+        <div class="text-center col-md-2">
+            <h4><strong>Beer</strong></h4>
+        </div>
+        <div class="clearfix" </div>
+        </div>
+
+    </div>
     </div>
 
-    <div class = "emptyDiv"></div>
+        <div class="emptyDiv"></div>
 
-<main>
+        <main>
 
- <!-- Category 1: Art-->
- <div class="panel-body" id="game-board">
-        <div class="categoryOne col-md-2 col-md-offset-1">
-            <div data-category="art" data-value="100" class="question well art100" data-number="0">100</div>
-            <div data-category="art" class="question well art200 twoHundred" data-number="1">200</div>
-            <div data-category="art" class="question well art300" data-number="2">300</div>
-            <div data-category="art" class="question well art400" data-number="3">400</div>
-            <div data-category="art" class="question well art500" data-number="4">500</div>
-            </div>
-            <!-- Category 2: Food -->
-        <div class="category col-md-2">
-            <div data-category ="food" class="well food100" data-number="5">100</div>
-            <div data-category ="food" class="well food200" data-number="6">200</div>
-            <div data-category ="food" class="well food300" data-number="7">300</div>
-            <div data-category ="food" class="well food400" data-number="8">400</div>
-            <div data-category ="food" class="well food500" data-number="9">500</div>
-            </div>
-            <!-- Category 3: Wine -->
-        <div class="category col-md-2">
-            <div data-category ="wine" class="question well divButton wine100"  data-number="10">100</div>
-            <div data-category ="wine" class="well wine200" data-number="11">200</div>
-            <div data-category ="wine" class="well wine300" data-number="12">300</div>
-            <div data-category ="wine" class="well wine400" data-number="13">400</div>
-            <div data-category ="wine" class="well wine500" data-number="14">500</div>
-            </div>
-             <!-- Category 4: History-->
-        <div class="category col-md-2">
-            <div data-category ="history" class="well history100" data-number="15">100</div>
-            <div data-category ="history" class="well history200" data-number="16">200</div>
-            <div data-category ="history" class="well history300" data-number="17">300</div>
-            <div data-category ="history" class="well history400" data-number="18">400</div>
-            <div data-category ="history" class="well history500" data-number="19">500</div>
-            </div>         
-             <!-- Category 5: Beer-->
-        <div class="category col-md-2">
-            <div data-category ="beer" class="well beer100" data-number="20">100</div>
-            <div data-category ="beer" class="well beer200" data-number="21">200</div>
-            <div data-category ="beer" class="well beer300" data-number="22">300</div>
-            <div data-category ="beer" class="well beer400" data-number="23">400</div>
-            <div data-category ="beer" class="well beer500" data-number="24">500</div>
-            </div>
-        </div> 
-        
-        </div>
-        </div>
-        
-            </main>
+            <!-- Category 1: Art-->
+<div class="panel-body" id="game-board">
+<div class="categoryOne col-md-2 col-md-offset-1">
+    <div data-category="art" data-value="100" class="question well art100" data-number="0">100</div>
+    <div data-category="art" class="question well art200 twoHundred" data-number="1">200</div>
+    <div data-category="art" class="question well art300" data-number="2">300</div>
+    <div data-category="art" class="question well art400" data-number="3">400</div>
+    <div data-category="art" class="question well art500" data-number="4">500</div>
+</div>
+<!-- Category 2: Food -->
+<div class="category col-md-2">
+    <div data-category="food" class="well food100" data-number="5">100</div>
+    <div data-category="food" class="well food200" data-number="6">200</div>
+    <div data-category="food" class="well food300" data-number="7">300</div>
+    <div data-category="food" class="well food400" data-number="8">400</div>
+    <div data-category="food" class="well food500" data-number="9">500</div>
+</div>
+<!-- Category 3: Wine -->
+<div class="category col-md-2">
+    <div data-category="wine" class="question well divButton wine100" data-number="10">100</div>
+    <div data-category="wine" class="well wine200" data-number="11">200</div>
+    <div data-category="wine" class="well wine300" data-number="12">300</div>
+    <div data-category="wine" class="well wine400" data-number="13">400</div>
+    <div data-category="wine" class="well wine500" data-number="14">500</div>
+</div>
+<!-- Category 4: History-->
+<div class="category col-md-2">
+    <div data-category="history" class="well history100" data-number="15">100</div>
+    <div data-category="history" class="well history200" data-number="16">200</div>
+    <div data-category="history" class="well history300" data-number="17">300</div>
+    <div data-category="history" class="well history400" data-number="18">400</div>
+    <div data-category="history" class="well history500" data-number="19">500</div>
+</div>
+<!-- Category 5: Beer-->
+<div class="category col-md-2">
+    <div data-category="beer" class="well beer100" data-number="20">100</div>
+    <div data-category="beer" class="well beer200" data-number="21">200</div>
+    <div data-category="beer" class="well beer300" data-number="22">300</div>
+    <div data-category="beer" class="well beer400" data-number="23">400</div>
+    <div data-category="beer" class="well beer500" data-number="24">500</div>
+</div>
+</div>
 
-</main>
+    </div>
+    </div>
 
+    </main>
 
-<footer>
-        
+    </main>
+
+    <footer>
+
         <div class="panel-footer">
             <div>Score: </div>
-            <div class = "scoreBoard"></div>
+            <div class="scoreBoard"></div>
             <!-- <div class="pull-right"><h3> Player 2: </div>
              <div class="pull-left"><h3> Player 1: </div> -->
-            <div class = "clearfix"></div>    
+            <div class="clearfix"></div>
         </div>
-        
-</footer>
-        
 
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-    
-        <script src='app.js'></script>
+    </footer>
 
 
 
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src='app.js'></script>
+
+
+
+
+
 </body>
+
 </html>
