@@ -2,8 +2,14 @@
     display: center;
 }
 
+.well { 
+    text-align: center;
+    cursor: pointer;
+    background-color: #EBEB73;
+}
+
 body{
-    background-color: #F89B4F;
+    background-color: #FDC498;
 }
 
 #displayRules{
@@ -12,27 +18,26 @@ body{
 
 .jeopardy-logo{
     font-size: 80px;
-    font-family: "gyparody", sans-serif;
+    font-family: "", sans-serif;
     text-align: center;
 }
 
 .panel-footer {
-    background-color: #E27611
+    background-color: rgba(248, 152, 68, 0.34)
 }
 
-.well { 
-    text-align: center;
-    cursor: pointer;
-    background-color: lightgoldenrodyellow;
+.panel-heading{
+    background-color: blue;
 }
+
 
 .choices{
-    font-family: "Avenir Book", sans-serif;
+    font-family: "Raleway", sans-serif;
     cursor: pointer;
     text-align: center;
 }
 
 .prompt{
-    font-family: "Avenir Book", sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: center;
 }
