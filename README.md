@@ -12,7 +12,7 @@ Tasks:
 
 Description:
 
-Here, there are 25 separate divs displaying values 100-500. I have hard-coded each one with a data-number randing from 0-24 which corresponds with the index of the array of objects containing with answer, questions, correctAnswer, and cashValue.  Once a user has selected a button, a formerly hidden div appears with the answer and four questions. The user can click on any of the questions. If the user is correct, an alert is displayd and points are rewarded. If the user is incorrect, an alert it displayed and points are deducted. 
+Here, there are 25 separate divs displaying values 100-500. I have hard-coded each one with a data-number randing from 0-24 which corresponds with the index of the array of objects containing with answer, questions, correctAnswer, and cashValue.  Once a user has selected a button, a formerly hidden div appears with the answer and four questions. The user can click on any of the questions. If the user is correct, an alert is displayd and points are rewarded. If the user is incorrect, an alert is displayed and points are deducted. 
 
 
 Work to continue: 
@@ -20,12 +20,7 @@ Work to continue:
 2. Final Jeopardy
 3. More dynamic and responsive design. 
 
-Technologies used: 
--HTML
--CSS
--Javascript
--jQuery library
--Twitter Bootstrap
+Technologies used: HTML, CSS, Javascript, jQuery library, and Twitter Bootstrap.
 
 <a href="https://imgur.com/dcGozLW"><img src="https://i.imgur.com/dcGozLW.png" title="source: imgur.com" /></a>
 
