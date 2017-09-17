@@ -17,14 +17,14 @@ body{
  
 }
 
-#displayRules{
-    align: center;
+.rules-button{
+    text-align: right;
+
 }
 
-
 .jeopardy-logo{
-    font-size: 60px;
-    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-family: "Englebert", sans-serif;
     text-align: center;
 }
 
