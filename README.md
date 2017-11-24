@@ -20,7 +20,12 @@ Work to continue:
 2. Final Jeopardy
 3. More dynamic and responsive design. 
 
-Technologies used: HTML, CSS, Javascript, jQuery library, and Twitter Bootstrap.
+Technologies used: 
+* HTML
+* CSS
+* Javascript
+* jQuery library
+* Twitter Bootstrap.
 
 <a href="https://imgur.com/dcGozLW"><img src="https://i.imgur.com/dcGozLW.png" title="source: imgur.com" /></a>
 
