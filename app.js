@@ -186,7 +186,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
     {
     answer: 'The century old slogan compliments the fizzy quality of Miller\'s longest continually produced brand, High Life.',
-    questions: ["What is The Champagne of Beers?", "What is 'That frosty mug sensation'?", "What is 'Germany's Fun-Loving Beer'?", "What is It's BEER. Hooray beer!'"],
+    questions: ["What is The Champagne of Beers?", "What is That frosty mug sensation?", "What is Germany's Fun-Loving Beer?", "What is It's BEER. Hooray beer!"],
     correctAnswer: "What is The Champagne of Beers?",
     cashValue: 400,
      },
