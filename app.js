@@ -165,7 +165,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
     {
     answer: "This category of tart brews includes lambic, guess, and goses.",
-    questions: ["What is sour beer?", "What is pisner?", "What is lager?", "What is pale ale?"],
+    questions: ["What is sour beer?", "What is pilsner?", "What is lager?", "What is pale ale?"],
     correctAnswer: 'What is sour beer?',
     cashValue: 100,
     },
