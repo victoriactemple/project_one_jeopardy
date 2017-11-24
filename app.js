@@ -28,7 +28,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
     },
   
     {
-    answer: "The Town depicted in Vicent van Gogh's The Starry Night.",
+    answer: "The Town depicted in Vicente van Gogh's The Starry Night.",
     questions: ["What is Paris?", "What is Nice?", "What is Ize?", "What is Saint-Rémy-de-Provence?"],
     correctAnswer: 'What is Saint-Rémy-de-Provence?',
     cashValue: 300,
@@ -73,8 +73,8 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
     {
      answer: 'This type of green was called Cripshead until the 1920s.',
-     questions: ['What is bibb lettuce?', 'What is red leaf lettuce?', 'What is spinach?', 'What is Iceberg?'],
-     correctAnswer: 'What is Iceberg?',
+     questions: ['What is bibb lettuce?', 'What is red leaf lettuce?', 'What is spinach?', 'What is iceberg?'],
+     correctAnswer: 'What is iceberg?',
      cashValue: 400,
      },
      
@@ -96,7 +96,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
     },
           
     {  
-    answer: "Three major ways this wine is made through: skin contact, saigenee, and blending.",
+    answer: "Three major ways this wine is made through: skin contact, saignée, and blending.",
     questions: ["What is Proseco?", "What is Shiraz?", " What is Malbec?", "What is Rosé?"],
     correctAnswer: 'What is Rosé?',
     cashValue: 200,
@@ -126,7 +126,7 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
     // Category 4 History
     {
-    answer: "The name of the shop on which the Pilgrims travelled to North American in 1620.",
+    answer: "The name of the ship on which the Pilgrims travelled to North American in 1620.",
     questions: ['What is The Mayflower?', 'What is the Nina?', 'What is the Santa Maria?', 'What is The Titanic?'],
     correctAnswer: 'What is The Mayflower?',
     cashValue: 100,
@@ -186,15 +186,15 @@ alert("-Pick a category and a point value.\n-Click on the chosen box for the ans
      
     {
     answer: 'The century old slogan compliments the fizzy quality of Miller\'s longest continually produced brand, High Life.',
-    questions: ["What is 'The Champagne of Beers'?", "What is 'That frosty mug sensation'?", "What is 'Genermany's Fun-Loving Beer'?", "What is It's BEER. Hooray beer!'"],
-    correctAnswer: "What is 'The Champagne of Beers'?",
+    questions: ["What is The Champagne of Beers?", "What is 'That frosty mug sensation'?", "What is 'Germany's Fun-Loving Beer'?", "What is It's BEER. Hooray beer!'"],
+    correctAnswer: "What is The Champagne of Beers?",
     cashValue: 400,
      },
      
     {
     answer: "Series of regulations limiting the ingredients in beer in Germany. Limiting beer ingredients to: water, hops, and barley.",
-    questions: ["What is the German Beer Purity Law?", "What are Beer Making Standards of 1705?", "What is the Pisner Act 1600?", "What is Der Beer Act?"],
-    correctAnswer: "What is the German Geer Purity Law?",
+    questions: ["What is the 'German Beer Purity Law'?", "What are Beer Making Standards of 1705?", "What is the Pisner Act 1600?", "What is Der Beer Act?"],
+    correctAnswer: "What is the 'German Beer Purity Law'?",
     cashValue: 500,
      }];
 
