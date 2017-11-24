@@ -19,7 +19,7 @@ Technologies used:
 
 Description:
 
-Here, there are 25 separate divs displaying values 100-500. I have hard-coded each one with a data-number ranging from 0-24 which corresponds with the index of the array of objects containing the answer, questions, correct answer, and cash value. Once a user has selected a button, a formerly hidden div appears with the answer and four questions. The user can click on any of the questions. If the user is correct in their guess, an alert is displayed and points are rewarded. If the user is incorrect, an alert is displayed and points are deducted. 
+Here, there are 25 separate divs displaying values 100-500. I have hard-coded each one with a data-number ranging from 0-24 which corresponds with the index of the array of objects containing the answer, questions, correct answer, and cash value. Three functions do the rest of the heavy liftning. Once a user has selected and clicked a cash value button, a formerly hidden div appears with the answer and four questions. The user can click on any of the questions. If the user is correct in their guess, an alert is displayed and points are rewarded. If the user is incorrect, an alert is displayed and points are deducted. 
 
 
 
